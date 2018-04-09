@@ -1,0 +1,25 @@
+{
+  "name": "json-to-prolog",
+  "version": "1.0.0",
+  "description": "Simple Javascript library for converting JSON objects to Prolog facts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcAstr0/json-to-prolog.git"
+  },
+  "keywords": [
+    "Prolog",
+    "JSON",
+    "JavaScript",
+    "Node.js"
+  ],
+  "author": "Mario Castro Squella",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarcAstr0/json-to-prolog/issues"
+  },
+  "homepage": "https://github.com/MarcAstr0/json-to-prolog#readme"
+}
