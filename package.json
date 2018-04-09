@@ -4,7 +4,7 @@
   "description": "Simple Javascript library for converting JSON objects to Prolog facts",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "nyc jasmine"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,11 @@
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.10.0",
-    "jasmine": "^3.1.0"
+    "eslint-plugin-jasmine": "^2.9.3",
+    "jasmine": "^3.1.0",
+    "nyc": "^11.6.0"
+  },
+  "dependencies": {
+    "camelcase": "^5.0.0"
   }
 }
